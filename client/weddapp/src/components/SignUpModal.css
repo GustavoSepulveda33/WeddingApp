@@ -1,0 +1,80 @@
+
+
+
+
+
+.signUP {
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem;
+
+}
+
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 2rem;
+
+    background-color: rgb(255, 153, 0);
+
+
+
+}
+
+.inputContainer {
+    /* background-color: yellow; */
+
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+
+}
+
+label {
+    padding-right: 2rem;
+}
+
+#fname {
+    width: 100%;
+    height: 2rem;
+}
+
+#email {
+    width: 70%;
+    height: 2rem;
+}
+
+#password {
+    width: 70%;
+    height: 2rem;
+}
+
+.empass {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.submitBTN {
+    width: 60%;
+    height: 3rem;
+}
+

@@ -1,0 +1,37 @@
+
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-item {
+
+    text-decoration: none;
+    list-style: none;
+
+}
+
+li:hover {
+
+    cursor: pointer;
+    text-decoration: line-through;
+
+}
+
+/* .modalContainer {
+
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.closeModalBTN {
+
+    background-color: blue;
+
+}
