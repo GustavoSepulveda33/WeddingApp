@@ -3,9 +3,24 @@
 
 
 
+.modalConatiner {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: red;
+
+
+}
+
 .signUP {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
 
     padding: 2rem;
 
@@ -78,3 +93,9 @@ label {
     height: 3rem;
 }
 
+.CloseBTN {
+
+    width: 40%;
+    height: 3rem;
+
+}

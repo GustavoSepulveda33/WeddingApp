@@ -73,6 +73,7 @@ function SignUpModal ({ onClose }) {
 
     return (
         <div>
+          <div className='modalConatiner'>
             <div className="signUP modal">
               
                 {/* <div className="modal">
@@ -122,11 +123,15 @@ function SignUpModal ({ onClose }) {
 
 
                 </form>
-                <button onClick={handleModalClose}>Close</button>
+                <button className='CloseBTN' onClick={handleModalClose}>Close</button>
+                <div>
+                    <p>Already have an account?</p>
+                    <button>Log in here!</button>
+                </div>
             </div>
 
             <button onClick={() => checkStatus()}>Check Status</button>
-
+            </div>
         </div>
     )
 
